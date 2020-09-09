@@ -1,0 +1,36 @@
+{
+    "name": "react-playground",
+    "version": "1.0.0",
+    "description": "Minimal React playground",
+    "repository": {
+        "url": "https://github.com/iacoware/react-playground"
+    },
+    "main": "src/index.js",
+    "scripts": {
+        "clean": "rimraf dist .cache node_modules/.cache/",
+        "start": "npm run clean && parcel index.html --no-autoinstall --open",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@xstate/inspect": "^0.1.1",
+        "@xstate/react": "^0.8.1",
+        "bootstrap": "^4.5.2",
+        "graphql": "^15.3.0",
+        "ramda": "^0.27.1",
+        "react": "^16.13.1",
+        "react-dom": "16.13.1",
+        "rimraf": "^3.0.2",
+        "urql": "^1.10.0",
+        "xstate": "^4.13.0"
+    },
+    "devDependencies": {
+        "eslint": "7.8.1",
+        "eslint-config-prettier": "6.11.0",
+        "eslint-plugin-prettier": "3.1.4",
+        "eslint-plugin-react": "7.20.6",
+        "parcel": "1.12.4",
+        "prettier": "2.1.1"
+    }
+}
