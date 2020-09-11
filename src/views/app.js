@@ -1,9 +1,9 @@
 import React, { useEffect } from "react"
-import Timer from "./timer/timer"
+import Timer from "./timer/timer-xstate"
 
 const App = () => {
     useEffect(() => {
-        // document.getElementsByTagName("iframe").item(0).style.display = "block"
+        document.getElementsByTagName("iframe").item(0).style.display = "block"
     })
     return (
         <div className="container-fluid">
