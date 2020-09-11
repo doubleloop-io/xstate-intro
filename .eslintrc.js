@@ -24,7 +24,12 @@ module.exports = {
         },
     },
     rules: {
-        "prettier/prettier": ["error"],
+        "prettier/prettier": [
+            "error",
+            {
+                endOfLine: "auto",
+            },
+        ],
         "react/prop-types": ["off"], // Disabled cause it's a playground. Enable it in prod
         "no-unused-vars": ["warn"], // Disabled cause it's a playground. Enable it in prod
     },
